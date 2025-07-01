@@ -57,8 +57,7 @@ target_link_libraries(myapp PRIVATE gocxx::io)
 Or include headers directly:
 
 ```cpp
-#include <gocxx/io/reader.h>
-#include <gocxx/io/writer.h>
+#include <gocxx/io/io.h>
 ```
 
 > Check each module’s README for usage and build instructions.
@@ -79,7 +78,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for more.
 
 ## 📄 License
 
-[MIT](LICENSE)
+[Apache License 2.0](LICENSE)
 
 ---
 
