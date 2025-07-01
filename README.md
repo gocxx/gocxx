@@ -33,8 +33,6 @@ Go’s standard library is praised for its:
 | [context](https://github.com/gocxx/context) | Cancellable and timeout-aware operations      | 🔜 Planned |
 | [fmt](https://github.com/gocxx/fmt)     | `Printf`-style formatting, stream formatting     | 🔜 Planned |
 
-> Each module is a standalone library, installable and usable independently.
-
 ---
 
 ## 🔧 Goals
