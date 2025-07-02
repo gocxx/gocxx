@@ -27,7 +27,7 @@ Go’s standard library is praised for its:
 | Package     | Description                               | Status |
 |-------------|-------------------------------------------|--------|
 | [io](https://github.com/gocxx/io)       | `Reader`, `Writer`, `Copy`, etc.                 | ✅ Initial version |
-| [net](https://github.com/gocxx/net)     | TCP/UDP, `Dial`, `Listener`, etc.                | 🚧 In progress |
+| [net](https://github.com/gocxx/net)     | TCP/UDP, `Dial`, `Listener`, etc.                | 🔜 Planned |
 | [sync](https://github.com/gocxx/sync)   | `Mutex`, `Once`, `WaitGroup`, etc.               | 🔜 Planned |
 | [errors](https://github.com/gocxx/errors) | Error wrapping, contextual errors                | 🔜 Planned |
 | [context](https://github.com/gocxx/context) | Cancellable and timeout-aware operations      | 🔜 Planned |
