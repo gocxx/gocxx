@@ -1,5 +1,5 @@
 # gocxx
-
+[![Open Source Helpers](https://www.codetriage.com/gocxx/gocxx/badges/users.svg)](https://www.codetriage.com/gocxx/gocxx)
 > 🧩 Go-inspired modular libraries for modern C++
 
 `gocxx` is a collection of small, composable, and idiomatic C++ libraries inspired by the Go standard library — packages like `io`, `net`, `sync`, `errors`, and more — built for modern C++ (C++17 and beyond).
