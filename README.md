@@ -47,20 +47,8 @@ Go’s standard library is praised for its:
 
 ## 🏗️ Getting Started
 
-Each module is self-contained and can be added via CMake:
-
-```cmake
-add_subdirectory(gocxx/io)
-target_link_libraries(myapp PRIVATE gocxx::io)
-```
-
-Or include headers directly:
-
-```cpp
-#include <gocxx/io/io.h>
-```
-
-> Check each module’s README for usage and build instructions.
+Each module is self-contained and can be added via CMake
+Check each module’s README for usage and build instructions.
 
 ---
 
