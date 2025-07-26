@@ -1,0 +1,11 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: gocxx
+Description: Go-inspired C++ utilities (bundled errors, sync, base)
+Version: @PROJECT_VERSION@
+Requires: gocxx_io gocxx_sync gocxx_base gocxx_errors
+Libs: -L${libdir} -lgocxx
+Cflags: -I${includedir}

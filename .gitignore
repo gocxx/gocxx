@@ -1,0 +1,231 @@
+# Build directories
+build/
+build-*/
+out/
+cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+
+# Compiled Object files
+*.o
+*.obj
+*.lo
+*.slo
+*.ko
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Qt-es
+object_script.*.Release
+object_script.*.Debug
+*_plugin_import.cpp
+/.qmake.cache
+/.qmake.stash
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+Makefile*
+*build-*
+*.qm
+*.prl
+
+# Qt unit tests
+target_wrapper.*
+
+# QtCreator
+*.autosave
+
+# QtCreator Qml
+*.qmlproject.user
+*.qmlproject.user.*
+
+# QtCreator CMake
+CMakeLists.txt.user*
+
+# IDE files
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+
+# CLion
+.idea/
+
+# Visual Studio
+*.user
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.sbr
+*.sdf
+*.opensdf
+*.idb
+*.unsuccessfulbuild
+ipch/
+*.aps
+*.iobj
+*.ipdb
+*.vcxproj.filters
+*.vcxproj.user
+
+# Code::Blocks
+*.layout
+*.depend
+
+# CodeLite
+*.project
+*.workspace
+
+# Conan
+conanfile.txt
+conaninfo.txt
+conanbuildinfo.*
+conan.lock
+
+# vcpkg
+vcpkg_installed/
+
+# Package managers
+node_modules/
+.npm/
+
+# Documentation generated
+docs/html/
+docs/latex/
+docs/xml/
+docs/rtf/
+docs/docbook/
+docs/man/
+
+# Keep website source but ignore generated site
+_site/
+
+# Test results
+Testing/
+*.gcov
+*.gcda
+*.gcno
+coverage.info
+coverage/
+*.profdata
+*.profraw
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python (for scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.env
+
+# Archives
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+*.tar
+*.7z
+
+# Local configuration
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/c_cpp_properties.json
+
+# gocxx specific
+# Keep example programs but ignore their binaries
+examples/*.exe
+examples/*.out
+tests/*.exe
+tests/*.out
+
+# Doxygen warning log
+doxygen_warnings.log
+
+# Benchmark results
+benchmark_results/
+*.benchmark
+
+# Profiling data
+*.prof
+gmon.out
+callgrind.out.*
+
+# Sanitizer logs
+*.san

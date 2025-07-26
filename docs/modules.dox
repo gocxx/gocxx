@@ -1,0 +1,169 @@
+/**
+ * @defgroup base Base Module
+ * @brief Core primitives and fundamental types
+ * 
+ * The base module contains the essential building blocks of the gocxx library:
+ * - Channels for thread-safe communication
+ * - Select operations for non-blocking channel operations
+ * - Defer mechanism for automatic cleanup
+ * - Result types for error handling without exceptions
+ * 
+ * @{
+ */
+
+/**
+ * @defgroup channels Channels
+ * @ingroup base
+ * @brief Thread-safe communication channels
+ * 
+ * Channels provide a way to communicate between threads safely.
+ * They can be buffered or unbuffered and support both blocking
+ * and non-blocking operations.
+ */
+
+/**
+ * @defgroup select Select Operations
+ * @ingroup base
+ * @brief Non-blocking channel operations
+ * 
+ * Select operations allow choosing between multiple channel
+ * operations without blocking, similar to Go's select statement.
+ */
+
+/**
+ * @defgroup defer Defer
+ * @ingroup base
+ * @brief Automatic cleanup mechanism
+ * 
+ * Defer provides RAII-based cleanup that executes code when
+ * leaving a scope, similar to Go's defer statement.
+ */
+
+/**
+ * @defgroup result Result Types
+ * @ingroup base
+ * @brief Error handling without exceptions
+ * 
+ * Result types provide a way to handle errors without using
+ * exceptions, inspired by Rust's Result<T, E> type.
+ */
+
+/** @} */ // end of base group
+
+/**
+ * @defgroup sync Synchronization Module
+ * @brief Thread synchronization primitives
+ * 
+ * The sync module provides Go-like synchronization primitives:
+ * - WaitGroup for waiting on multiple goroutines
+ * - Mutex for mutual exclusion
+ * - Once for one-time initialization
+ * 
+ * @{
+ */
+
+/**
+ * @defgroup waitgroup WaitGroup
+ * @ingroup sync
+ * @brief Wait for multiple operations to complete
+ */
+
+/**
+ * @defgroup mutex Mutex
+ * @ingroup sync
+ * @brief Mutual exclusion primitives
+ */
+
+/** @} */ // end of sync group
+
+/**
+ * @defgroup time Time Module
+ * @brief Time and duration utilities
+ * 
+ * The time module provides Go-like time handling:
+ * - Duration type for representing time spans
+ * - Timer and Ticker for time-based operations
+ * - Time utilities for common operations
+ * 
+ * @{
+ */
+
+/**
+ * @defgroup duration Duration
+ * @ingroup time
+ * @brief Time span representation
+ */
+
+/**
+ * @defgroup timer Timer and Ticker
+ * @ingroup time
+ * @brief Time-based operations
+ */
+
+/** @} */ // end of time group
+
+/**
+ * @defgroup io I/O Module
+ * @brief Input/output interfaces and utilities
+ * 
+ * The I/O module provides Go-like I/O interfaces:
+ * - Reader and Writer interfaces
+ * - Common I/O operations
+ * - Error handling for I/O operations
+ * 
+ * @{
+ */
+
+/**
+ * @defgroup interfaces I/O Interfaces
+ * @ingroup io
+ * @brief Standard I/O interfaces
+ */
+
+/** @} */ // end of io group
+
+/**
+ * @defgroup os OS Module
+ * @brief Operating system integration
+ * 
+ * The OS module provides cross-platform OS utilities:
+ * - File operations
+ * - Environment variable access
+ * - Process information
+ * 
+ * @{
+ */
+
+/**
+ * @defgroup files File Operations
+ * @ingroup os
+ * @brief File system operations
+ */
+
+/**
+ * @defgroup env Environment
+ * @ingroup os
+ * @brief Environment variable access
+ */
+
+/** @} */ // end of os group
+
+/**
+ * @defgroup errors Error Module
+ * @brief Error creation and handling utilities
+ * 
+ * The errors module provides utilities for creating and handling errors:
+ * - Error creation functions
+ * - Error wrapping and unwrapping
+ * - Common error types
+ * 
+ * @{
+ */
+
+/**
+ * @defgroup error_creation Error Creation
+ * @ingroup errors
+ * @brief Functions for creating errors
+ */
+
+/** @} */ // end of errors group
