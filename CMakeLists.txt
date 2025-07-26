@@ -6,6 +6,13 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 include(FetchContent)
 
+# Fetch nlohmann/json for JSON functionality
+FetchContent_Declare(
+    nlohmann_json
+    URL https://github.com/nlohmann/json/releases/download/v3.11.3/json.tar.xz
+)
+FetchContent_MakeAvailable(nlohmann_json)
+
 # Options
 option(GOCXX_ENABLE_TESTS "Enable building of tests (requires GTest)" OFF)
 option(GOCXX_ENABLE_DOCS "Enable building of documentation (requires Doxygen)" OFF)
@@ -35,6 +42,10 @@ target_include_directories(gocxx PUBLIC
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
     $<INSTALL_INTERFACE:include>
 )
+
+# Link with nlohmann_json
+target_link_libraries(gocxx PUBLIC nlohmann_json::nlohmann_json)
+
 # This is needed to ensure relocatable static linking
 set_target_properties(gocxx PROPERTIES POSITION_INDEPENDENT_CODE ON)
 

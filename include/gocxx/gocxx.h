@@ -55,6 +55,12 @@
 #include <gocxx/time/timer.h>
 #include <gocxx/time/ticker.h>
 
+// context
+#include <gocxx/context/context.h>
+
+// encoding
+#include <gocxx/encoding/json.h>
+
 namespace gocxx {
     void anchor();  
 }
