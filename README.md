@@ -1,5 +1,5 @@
 # gocxx
-
+[![Open Source Helpers](https://www.codetriage.com/gocxx/gocxx/badges/users.svg)](https://www.codetriage.com/gocxx/gocxx)
 > 🧩 Go-inspired modular libraries for modern C++
 
 # gocxx
@@ -225,21 +225,8 @@ Go’s standard library is praised for its:
 
 ## 🏗️ Getting Started
 
-Each module is self-contained and can be added via CMake:
-
-```cmake
-add_subdirectory(gocxx/io)
-target_link_libraries(myapp PRIVATE gocxx::io)
-```
-
-Or include headers directly:
-
-```cpp
-#include <gocxx/io/reader.h>
-#include <gocxx/io/writer.h>
-```
-
-> Check each module’s README for usage and build instructions.
+Each module is self-contained and can be added via CMake
+Check each module’s README for usage and build instructions.
 
 ---
 
@@ -257,7 +244,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for more.
 
 ## 📄 License
 
-[MIT](LICENSE)
+[Apache License 2.0](LICENSE)
 
 ---
 
