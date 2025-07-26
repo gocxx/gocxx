@@ -33,6 +33,10 @@ namespace gocxx::time {
         return Minutes() / 60.0;
     }
 
+    std::chrono::nanoseconds Duration::ToStdDuration() const {
+        return std::chrono::nanoseconds(ns_);
+    }
+
     std::string DurationToString(Duration d) {
         auto total_ns = d.Nanoseconds();
         std::ostringstream oss;

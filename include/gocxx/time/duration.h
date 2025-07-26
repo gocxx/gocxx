@@ -1,6 +1,7 @@
 #pragma once
 #include <cstdint>
 #include <string>
+#include <chrono>
 
 namespace gocxx::time {
 
@@ -24,6 +25,9 @@ namespace gocxx::time {
         double Hours() const;
 
         std::string String() const;
+        
+        /// @brief Convert to std::chrono::nanoseconds for interop
+        std::chrono::nanoseconds ToStdDuration() const;
 
         Duration operator+(const Duration& other) const;
         Duration operator-(const Duration& other) const;
